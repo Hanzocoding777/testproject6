@@ -1,0 +1,36 @@
+{
+  "discord_api_token": "MTI0MzMzNjI1NjYxNjc5NjI3MQ.GQNbot.tnIh4sY8qUtmN13S6tx8vQJ8PWdgahH5gEqd0M",
+  "crystal_pay_auth_login": "Awynay",
+  "crystal_pay_auth_secret": "4dc2427e86d1d83e8e52364cf2a4ed4662153309",
+  "guild_id": 295477401813647360,
+  "premium_prices": {
+    "premium1_price": 100,
+    "premium2_price": 200,
+    "premium3_price": 300
+  },
+  "database": {
+    "connection_string": "mongodb://admin:35g4b35jdsdjn@95.165.138.30:27019/",
+    "database_name": "pubgdb"
+  },
+  "logger": {
+    "bot": 1,
+    "discord": 2,
+    "database": 3
+  },
+  "channels": {
+    "error_channel_id": 1229381655697952869,
+    "premium_log_channel_id": 1251986387616661585,
+    "create_premium_channel_id": 1251986553312510093,
+    "premium_parent_id": 1252027735841312828,
+    "main_chat_channel_id": 1230586977246777474,
+    "trash_channel_id": 1242934353349312555,
+    "premium_panel_channel_id": 1230586737588437032
+  },
+  "roles": {
+    "highest_role_id": 1229014724629233775,
+    "premium1_role_id": 1230866706897830019,
+    "premium2_role_id": 1230221492118224956,
+    "premium3_role_id": 1230221493296824320,
+    "live_stream_role_id": 1251987285109510346
+  }
+}
