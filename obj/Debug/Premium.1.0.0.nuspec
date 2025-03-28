@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Premium</id>
+    <version>1.0.0</version>
+    <authors>Premium</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="d528264342435b65d6265e54e156608078e12746" />
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Database" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Tools" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="DSharpPlus" version="4.4.6" exclude="Build,Analyzers" />
+        <dependency id="DSharpPlus.SlashCommands" version="4.4.6" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="3.1.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Extensions.Logging" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Console" version="5.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Art\Desktop\PUBGR\Premium\bin\Debug\net7.0\Premium.runtimeconfig.json" target="lib\net7.0\Premium.runtimeconfig.json" />
+    <file src="C:\Users\Art\Desktop\PUBGR\Premium\bin\Debug\net7.0\Premium.dll" target="lib\net7.0\Premium.dll" />
+  </files>
+</package>
